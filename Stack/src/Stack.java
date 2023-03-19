@@ -43,7 +43,7 @@ public class Stack {
     }
 }
 
-Stack stack = new Stack(3);
+/*Stack stack = new Stack(3);
 
 stack.push(1);
 stack.push(2);
@@ -55,5 +55,5 @@ stack.pop();
 
 while (!stack.isEmpty()) {
     System.out.print(stack.pop() + " "); //prints 2 1
-}
+}*/
 

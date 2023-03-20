@@ -1,25 +1,25 @@
 A Linked List is a dynamic data structure that is widely used in computer science to represent a sequence of elements. It consists of a series of nodes, each of which contains a value and a reference to the next node in the sequence. Unlike an array, a Linked List does not store its elements in contiguous memory locations, and its size can be easily modified during runtime. In this answer, I will explain the implementation of a singly Linked List data structure in Java in detail, step-by-step. 
-#Step 1: Define the Node class
 
+Step 1: Define the Node class
 The first step in implementing a Linked List data structure is to define a Node class that represents each element in the list. In Java, we can create a nested class called Node that has two instance variables: a data field of type T to store the element, and a next field of type Node<T> to store a reference to the next Node object in the sequence.
 In the constructor of the Node class, we initialize the data field with the parameter passed to the constructor and set the next field to null, since the new node is not yet connected to any other node in the list.
 
 Step 2: Define the LinkedList class
-
 The next step is to define the LinkedList class, which will be responsible for maintaining the list of nodes. The LinkedList class has two instance variables: a head field of type Node<T> that represents the first element in the list, and a size field of type int that stores the number of elements in the list.
+
 Step 3: Implement the add() method
-
 The add() method is used to add a new element to the end of the Linked List. To do this, we first create a new Node object with the given data and set its next field to null, since it will be the last element in the list. If the head field is null, we set it to the new node. Otherwise, we iterate through the list starting from the head until we reach the last node, and then set its next field to the new node.
+
 Step 4: Implement the get() method
-
 The get() method is used to retrieve the element at a given index in the Linked List. To do this, we first check that the index is valid (i.e., within the bounds of the list). Then, we iterate through the list starting from the head until we reach the node at the given index, and return its data field.
+
 Step 5: Implement the remove() method
-
 The remove() method is used to remove the element at a given index in the Linked List. To do this, we first check that the index is valid. Then, we iterate through the list starting from the head until we reach the node at the given index, and remove it from the list by setting its previous node's next field to its next node. Finally, we decrement the size of the list and return the removed element.
+
 Step 6: Implement the size() method
-
 The size() method simply returns the number of elements in the Linked List, which is stored in the size field.
-Step 7: Implement the toString() method
 
+Step 7: Implement the toString() method
 The toString() method is used to convert the Linked List to a string representation, which can be useful for debugging purposes. In this implementation, we simply iterate through the list and append each element to a StringBuilder object.
+
 With these methods implemented, we have a basic implementation of a singly Linked List data structure in Java. This implementation can be used to store and manipulate a sequence of elements of any type.

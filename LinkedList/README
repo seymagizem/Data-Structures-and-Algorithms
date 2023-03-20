@@ -1,5 +1,5 @@
 A Linked List is a dynamic data structure that is widely used in computer science to represent a sequence of elements. It consists of a series of nodes, each of which contains a value and a reference to the next node in the sequence. Unlike an array, a Linked List does not store its elements in contiguous memory locations, and its size can be easily modified during runtime. In this answer, I will explain the implementation of a singly Linked List data structure in Java in detail, step-by-step. 
-#Step 1: Define the Node class#
+#Step 1: Define the Node class
 
 The first step in implementing a Linked List data structure is to define a Node class that represents each element in the list. In Java, we can create a nested class called Node that has two instance variables: a data field of type T to store the element, and a next field of type Node<T> to store a reference to the next Node object in the sequence.
 In the constructor of the Node class, we initialize the data field with the parameter passed to the constructor and set the next field to null, since the new node is not yet connected to any other node in the list.

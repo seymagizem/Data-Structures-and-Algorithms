@@ -5,5 +5,5 @@
  * @author seymagizemsivri
  *
  */
-module LinkedList {
+module Stack {
 }

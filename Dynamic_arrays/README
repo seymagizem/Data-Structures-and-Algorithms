@@ -1,4 +1,4 @@
-In Java, dynamic arrays are implemented using the ArrayList class, which is part of the Java Collections Framework.
+In Java, dynamic arrays are implemented using the ArrayList class, which is part of the Java collections framework.
 
 A dynamic array is an array-like data structure with a variable size that can grow or shrink as needed during runtime. It provides more flexibility than a static array, which has a fixed size that cannot be changed once it is initialized.
 

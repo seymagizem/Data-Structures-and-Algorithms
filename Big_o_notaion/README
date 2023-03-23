@@ -1,0 +1,2 @@
+Big O notation is used to describe the time complexity of an algorithm. In other words, it tells us how the running time of an algorithm scales as the input size increases. We typically use Big O notation to describe the worst-case scenario, which means that we assume that the input is as large as possible and that the algorithm is doing the most amount of work possible.
+In Java, we can use loops, recursion, and other programming constructs to implement algorithms. The time complexity of these algorithms can be expressed in terms of Big O notation. 

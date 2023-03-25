@@ -7,5 +7,5 @@ The ArrayList class in Java provides dynamic array functionality by dynamically 
 Here are some key features of ArrayList in Java:
  > ArrayList is a generic class, which means it can store elements of any data type.
  > ArrayList is implemented using an underlying array, which is automatically resized as elements are added or removed.
- > ArrayList provides methods to add, remove, get, and set elements at any index in the array.
+ > ArrayList provides methods to add, remove, get and set elements at any index in the array.
  > ArrayList is not thread-safe, which means it should not be used in concurrent environments without proper synchronization.

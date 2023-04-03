@@ -1,8 +1,7 @@
 Binary Search is a searching algorithm that searches an element in a sorted array by repeatedly dividing the array into half. 
 
 Here's how it works:
-1-
-Set start and end variables to the first and last indices of the array, respectively.
+1-Set start and end variables to the first and last indices of the array, respectively.
 2- Calculate the middle index of the array by adding start and end and dividing the sum by 2.
 3- If the element to be searched is equal to the element at the middle index, return the middle index.
 4- If the element to be searched is less than the element at the middle index, set end variable to middle - 1.
